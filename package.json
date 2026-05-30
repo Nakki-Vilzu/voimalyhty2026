@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "deploy": "npm run build"
+    "deploy": "npm run build && npx wrangler deploy --compatibility-flag nodejs_compat"
   },
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.2.11",
